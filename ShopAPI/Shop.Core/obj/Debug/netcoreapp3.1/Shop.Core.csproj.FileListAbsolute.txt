@@ -1,0 +1,9 @@
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\bin\Debug\netcoreapp3.1\Shop.Core.deps.json
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\bin\Debug\netcoreapp3.1\Shop.Core.dll
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\bin\Debug\netcoreapp3.1\Shop.Core.pdb
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.AssemblyInfoInputs.cache
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.AssemblyInfo.cs
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.dll
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.pdb
+C:\Users\USER_WIN\source\repos\ShopAPI\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.csprojAssemblyReference.cache

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.API</name>
+    </assembly>
+    <members>
+        <member name="M:Shop.API.Controllers.CustomerController.GetCustomer(System.Int32)">
+            <summary>
+            Get a specific customer by unique id
+            </summary>
+            <response code="500"></response>
+            <returns>Customer</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.CustomerController.CreateCustomer(Shop.Business.Model.Input.CustomerInputModel)">
+            <summary>
+            Add a new customer to database
+            </summary>
+            <param name="model">Poduct to be added</param>
+            <response code="500">Can't create a customer right now</response>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.CustomerController.UpdateCustomer(Shop.Business.Model.Input.CustomerInputModel)">
+            <summary>
+            Change any data of customer by customerId
+            </summary>
+            <param name="model">Model with Id of customer to update 
+            and others properties with new values</param>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.CustomerController.DeleteCustomer(System.Int32)">
+            <summary>
+            Delete customer
+            </summary>
+            <param name="id">Id of customer to delete</param>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.CustomerController.GetSearchResult(Shop.Business.Model.Input.CustomerSearchInputModel)">
+            <summary>
+            
+            </summary>
+            <param name="model">Model with search options</param>
+            <returns>List of customers</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.OrderController.GetOrder(System.Int32)">
+            <summary>
+            Get a specific order by unique id
+            </summary>
+            <response code="500"></response>
+            <returns>Order</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.OrderController.CreateOrder(Shop.Business.Model.Input.OrderInputModel)">
+            <summary>
+            Add a new order to database
+            </summary>
+            <param name="model">Poduct to be added</param>
+            <response code="500">Can't create your order right now</response>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.GetProduct(System.Int32)">
+            <summary>
+            Get a specific product by unique id
+            </summary>
+            <response code="500"></response>
+            <returns>Product</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.CreateProduct(Shop.Business.Model.Input.ProductInputModel)">
+            <summary>
+            Add a new product to database
+            </summary>
+            <param name="model">Poduct to be added</param>
+            <response code="500">Can't create your product right now</response>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.UpdateProduct(Shop.Business.Model.Input.ProductInputModel)">
+            <summary>
+            Change any data of product by productId
+            </summary>
+            <param name="model">Model with Id of product to update 
+            and others properties with new values</param>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete product
+            </summary>
+            <param name="id">Id of product to delete</param>
+            <returns>The number of affected records</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.GetAllProductByCityId(System.Int32)">
+            <summary>
+            Get all products in required city or storage
+            </summary>
+            <param name="cityId">Id of required city</param>
+            <returns>All products in required city or storage</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.AddProductsToCity(System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            Products to be added to city or storage
+            </summary>
+            <param name="productId">ProductId to be added to city or storage </param>
+            <param name="color">Products color</param>
+            <param name="quantity">Products quantity</param>
+            <param name="cityId">City or storage </param>
+            <returns>Quantity of this product in this city or storage</returns>
+        </member>
+        <member name="M:Shop.API.Controllers.ProductController.GetSearchResult(Shop.Business.Model.Input.ProductSearchInputModel)">
+            <summary>
+            Search Products
+            </summary>
+            <param name="model">Model with search options</param>
+            <returns>List of products each with quantity and colors for city</returns>
+        </member>
+    </members>
+</doc>
