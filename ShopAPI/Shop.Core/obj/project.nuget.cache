@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q2dXSFPJx/rdNjx8pQ7vmQi1ZXk9pfQpRLI7ksneTXP7W56jWETvrKaUZkchbEypoe95+mhWXCpMsEdAz/qLtg==",
+  "dgSpecHash": "1+RMycUwECFKWxK4S7P18xHXcc8x9P1mFrSGqt9lX9naHn35u/cRaD/CliFdoP/IX/FIn1OhHUyo/OULqgdOrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\Shop.Core\\Shop.Core.csproj",
+  "projectFilePath": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\Shop.Core\\Shop.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

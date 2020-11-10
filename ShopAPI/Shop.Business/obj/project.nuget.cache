@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W5cDxG4yc6N+lahO5HBxlutD8l/aNpKi2+4NVFPtwHJ3/7AeOwhtyR4lixhw4k/LMf1RmwJbdcg+uSU4u/yYaQ==",
+  "dgSpecHash": "UN/tFsnenbV5OTzXXg7cAodIDKB9Ez8qWYeE4kPwouGbNKAwUR5O6H2dBp6fUd93kFWGn5YjhfUVHm+Yt0ZsYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\Shop.Business\\Shop.Business.csproj",
+  "projectFilePath": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\Shop.Business\\Shop.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER_WIN\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\USER_WIN\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

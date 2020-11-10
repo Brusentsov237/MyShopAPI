@@ -74,17 +74,17 @@ namespace Shop.API.Controllers
         #endregion
 
         
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="model">Model with search options</param>
-        /// <returns>List of customers</returns>
-        [HttpPost("search")]
-        public ActionResult<List<CustomerOutputModel>> GetSearchResult(CustomerSearchInputModel model)
-        {
-            var results = _customerManager.FindCustomer(model);
-            return Ok(results);
-        }
+        ///// <summary>
+        ///// 
+        ///// </summary>
+        ///// <param name="model">Model with search options</param>
+        ///// <returns>List of customers</returns>
+        //[HttpPost("search")]
+        //public ActionResult<List<CustomerOutputModel>> GetSearchResult(CustomerSearchInputModel model)
+        //{
+        //    var results = _customerManager.FindCustomer(model);
+        //    return Ok(results);
+        //}
 
     }
 }

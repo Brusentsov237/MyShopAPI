@@ -5910,11 +5910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\ShopAPI\\Shop.API.csproj",
+      "projectUniqueName": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\ShopAPI\\Shop.API.csproj",
       "projectName": "Shop.API",
-      "projectPath": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\ShopAPI\\Shop.API.csproj",
+      "projectPath": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\ShopAPI\\Shop.API.csproj",
       "packagesPath": "C:\\Users\\USER_WIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\ShopAPI\\obj\\",
+      "outputPath": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\ShopAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER_WIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5930,11 +5930,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\Shop.Business\\Shop.Business.csproj": {
-              "projectPath": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\Shop.Business\\Shop.Business.csproj"
+            "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\Shop.Business\\Shop.Business.csproj": {
+              "projectPath": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\Shop.Business\\Shop.Business.csproj"
             },
-            "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\Shop.Core\\Shop.Core.csproj": {
-              "projectPath": "C:\\Users\\USER_WIN\\source\\repos\\ShopAPI\\Shop.Core\\Shop.Core.csproj"
+            "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\Shop.Core\\Shop.Core.csproj": {
+              "projectPath": "C:\\Users\\USER_WIN\\source\\repos\\MyShopAPI\\ShopAPI\\Shop.Core\\Shop.Core.csproj"
             }
           }
         }

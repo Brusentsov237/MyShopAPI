@@ -52,6 +52,12 @@ namespace Shop.Data.Repositories
                 throw ex;
             }
         }
+
+        public List<OrderSearchDto> SearchOrder(OrderSearchDto searchDto)
+        {
+            throw new NotImplementedException();
+        }
+
         public int CreateOrder(OrderDto order)
         {
             try

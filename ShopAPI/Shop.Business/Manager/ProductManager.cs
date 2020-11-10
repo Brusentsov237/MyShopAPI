@@ -66,6 +66,15 @@ namespace Shop.Business.Manager
             return output;
         }
 
+
+        public List<ProductOutputModel> GetAllProductsByOrderId(int orderId)
+        {
+            var searchDto = new ProductSearchDto { OrderId = orderId };
+
+            var products = _productRepository.SearchProduct(searchDto);
+            var output = _mapper.Map<List<ProductOutputModel>>(products);
+            return output;
+        }
         public int AddProductsToCity(int productId, string color, int quantity, int cityId)
         {
             return _productRepository.AddProductsToCity(productId, color, quantity, cityId);

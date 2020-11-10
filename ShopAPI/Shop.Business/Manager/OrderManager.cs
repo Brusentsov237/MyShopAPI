@@ -28,21 +28,27 @@ namespace Shop.Business.Manager
         
         public OrderOutputModel GetOrderById(int id)
         {
-            var result = _orderRepository.GetOrderById(id);
-            var output = _mapper.Map<OrderOutputModel>(result);
+            var order = _orderRepository.GetOrderById(id);
+            var output = _mapper.Map<OrderOutputModel>(order);
             return output;
         }
        
         #endregion
 
-        public object FindOrder(OrderSearchInputModel model)
+        public List<OrderOutputModel> FindOrder(OrderSearchInputModel model)
         {
-            throw new NotImplementedException();
+            var searchDto = _mapper.Map<OrderSearchDto>(model);
+            var orders = _orderRepository.SearchOrder(searchDto);
+            var output = _mapper.Map<List<OrderOutputModel>>(orders);
+            return output;
         }
-       
+
         public List<OrderOutputModel> GetAllOrdersByCustomerId(int customerId)
         {
-            throw new NotImplementedException();
+            var searchDto = new OrderSearchDto { CustomerId = customerId };
+            var orders = _orderRepository.SearchOrder(searchDto);
+            var output = _mapper.Map<List<OrderOutputModel>>(orders);
+            return output;
         }
     }
 }

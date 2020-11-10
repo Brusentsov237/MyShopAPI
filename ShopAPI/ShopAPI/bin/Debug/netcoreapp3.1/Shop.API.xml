@@ -34,13 +34,6 @@
             <param name="id">Id of customer to delete</param>
             <returns>The number of affected records</returns>
         </member>
-        <member name="M:Shop.API.Controllers.CustomerController.GetSearchResult(Shop.Business.Model.Input.CustomerSearchInputModel)">
-            <summary>
-            
-            </summary>
-            <param name="model">Model with search options</param>
-            <returns>List of customers</returns>
-        </member>
         <member name="M:Shop.API.Controllers.OrderController.GetOrder(System.Int32)">
             <summary>
             Get a specific order by unique id

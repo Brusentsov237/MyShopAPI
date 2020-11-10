@@ -14,6 +14,7 @@ namespace Shop.Data.Dto
 
         public string Color { get; set; }
         public int? CityId { get; set; }
+        public int? OrderId { get; set; }
 
         public string Freezer { get; set; }
         public bool? HasNoFrost { get; set; }

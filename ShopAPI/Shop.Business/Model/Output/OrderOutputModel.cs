@@ -8,7 +8,7 @@ namespace Shop.Business.Model.Output
         public string CityId { get; set; }
         public string SellDate { get; set; }
         public int? CustomerId { get; set; }
-        public List<ProductOutputModel> Products { get; set; }
+        public List<OrderProductOutputModel> Products { get; set; }
 
     }
 }

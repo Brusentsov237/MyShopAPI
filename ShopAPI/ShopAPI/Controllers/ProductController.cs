@@ -84,6 +84,17 @@ namespace Shop.API.Controllers
             return Ok(results);
         }
 
+        /// <summary>
+        /// Get all products in required order or storage
+        /// </summary>
+        /// <param name="orderId">Id of required order</param>
+        /// <returns>All products in required order or storage</returns>
+        [HttpGet("order/{orderId}")]
+        public ActionResult<List<ProductOutputModel>> GetAllProductByOrderId(int orderId)
+        {
+            var results = _productManager.GetAllProductsByOrderId(orderId);
+            return Ok(results);
+        }
 
         /// <summary>
         /// Products to be added to city or storage
