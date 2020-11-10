@@ -53,9 +53,21 @@ namespace Shop.Data.Repositories
             }
         }
 
-        public List<OrderSearchDto> SearchOrder(OrderSearchDto searchDto)
+        public List<OrderDto> SearchOrder(OrderSearchDto searchDto)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = DbConnection.Query<OrderDto>(
+                "Search_Order",
+                searchDto,
+                commandType: CommandType.StoredProcedure
+                ).ToList();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public int CreateOrder(OrderDto order)

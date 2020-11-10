@@ -86,6 +86,13 @@
             <param name="cityId">Id of required city</param>
             <returns>All products in required city or storage</returns>
         </member>
+        <member name="M:Shop.API.Controllers.ProductController.GetAllProductByOrderId(System.Int32)">
+            <summary>
+            Get all products in required order or storage
+            </summary>
+            <param name="orderId">Id of required order</param>
+            <returns>All products in required order or storage</returns>
+        </member>
         <member name="M:Shop.API.Controllers.ProductController.AddProductsToCity(System.Int32,System.String,System.Int32,System.Int32)">
             <summary>
             Products to be added to city or storage
